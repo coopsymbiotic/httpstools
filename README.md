@@ -9,7 +9,7 @@ They are by no means exhaustive. Use at your own risks.
 Included scripts:
 
 * ./bin/generate-csr.sh: generates a new RSA key and CSR.
-* ./bin/validate-crt.sh: validates the certificate from the CA. (TODO)
+* ./bin/validate-crt.sh: validates the certificate from the CA.
 * ./bin/test-https.sh: do a few quick tests on the https server. (TODO)
 
 Contact
