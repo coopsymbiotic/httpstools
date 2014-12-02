@@ -12,6 +12,23 @@ Included scripts:
 * ./bin/validate-crt.sh: validates the certificate from the CA.
 * ./bin/test-https.sh: do a few quick tests on the https server. (TODO)
 
+Bundles for RapidSSL
+--------------------
+
+* RapidSSL intermediate CA SHA-2 (under SHA-1 Root)  
+  https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&actp=CROSSLINK&id=SO26459
+
+* RapidSSL intermediate CA SHA-1  
+  https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&actp=CROSSLINK&id=SO26464
+
+More information:  
+https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&actp=CROSSLINK&id=AR1548
+
+Bundle for Gandi.net
+--------------------
+
+https://wiki.gandi.net/fr/ssl/intermediate
+
 Contact
 -------
 
