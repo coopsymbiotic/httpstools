@@ -29,6 +29,13 @@ Bundle for Gandi.net
 
 https://wiki.gandi.net/fr/ssl/intermediate
 
+Useful sites
+------------
+
+* https://www.ssllabs.com/ssltest
+
+* https://shaaaaaaaaaaaaa.com/
+
 Contact
 -------
 
