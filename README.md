@@ -36,6 +36,29 @@ Useful sites
 
 * https://shaaaaaaaaaaaaa.com/
 
+Recommended cipher suite
+------------------------
+
+Apache:
+
+    SSLProtocol all -SSLv2 -SSLv3
+    SSLHonorCipherOrder on
+    SSLCipherSuite "ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:kDHE:SHA256:EECDH+ECDSA+AESGCM:EECDH+aRSA+AESGCM:HIGH:!RC4:!MD5:!DSS:!SRP:!LOW:!3DESL:!EXP:!PSK:!SRP:!aNULL:!eNULL:!NULL"
+
+Nginx:
+
+    ssl_protocols TLSv1.2 TLSv1.1 TLSv1;
+    ssl_ciphers ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:kDHE:SHA256:EECDH+ECDSA+AESGCM:EECDH+aRSA+AESGCM:HIGH:!RC4:!MD5:!DSS:!SRP:!LOW:!3DESL:!EXP:!PSK:!SRP:!aNULL:!eNULL:!NULL;
+    ssl_prefer_server_ciphers on;
+
+This is by no means a complete guide. Use at your own risk.
+
+Further readings:
+
+* https://wiki.mozilla.org/Security/Server_Side_TLS
+* https://community.qualys.com/blogs/securitylabs/2013/08/05/configuring-apache-nginx-and-openssl-for-forward-secrecy
+* http://security.stackexchange.com/questions/51680/optimal-web-server-ssl-cipher-suite-configuration
+
 Contact
 -------
 
