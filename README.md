@@ -34,6 +34,8 @@ Useful sites
 
 * https://www.ssllabs.com/ssltest
 
+* https://starttls.info/ (for email/smtp servers)
+
 * https://shaaaaaaaaaaaaa.com/
 
 Recommended cipher suite
