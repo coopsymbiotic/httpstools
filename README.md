@@ -12,6 +12,21 @@ Included scripts:
 * ./bin/validate-crt.sh: validates the certificate from the CA.
 * ./bin/test-https.sh: do a few quick tests on the https server. (TODO)
 
+Example for generate-csr.sh
+---------------------------
+
+For example, to create a key/csr for "www.example.org", create a file
+in ./conf/www.example.org with the following contents:
+
+```
+# This is the really important part.
+# If requesting a wildcard, set to "*.example.org"
+ssl_cn="www.example.org"
+
+# This is mostly stripped by the CA anyway
+ssl_req_name="/C=CA/ST=QC/L=Montreal/O=EXAMPLE/OU=IT"
+```
+
 Bundles for RapidSSL
 --------------------
 
