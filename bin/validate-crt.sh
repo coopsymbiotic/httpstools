@@ -4,6 +4,7 @@ client=$1
 base=$2
 
 if [ "$client" = "" ]; then
+  echo "Validates that the certificate file matches the key file."
   echo "Usage: ./bin/validate-crt.sh <www.example.org> <directory-to-key>"
   exit 1
 fi
