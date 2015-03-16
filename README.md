@@ -10,7 +10,10 @@ Included scripts:
 
 * ./bin/generate-csr.sh: generates a new RSA key and CSR.
 * ./bin/validate-crt.sh: validates the certificate from the CA.
-* ./bin/test-https.sh: do a few quick tests on the https server. (TODO)
+* ./bin/validate-https.sh: do a few quick tests on the https server.
+
+NB: validate-https.sh uses testssl.sh, written by Dirk Wetter and
+distributed under GPLv2: https://testssl.sh/
 
 Example for generate-csr.sh
 ---------------------------
@@ -25,6 +28,12 @@ ssl_cn="www.example.org"
 
 # This is mostly stripped by the CA anyway
 ssl_req_name="/C=CA/ST=QC/L=Montreal/O=EXAMPLE/OU=IT"
+```
+
+Then run:
+
+```
+./bin/generate-csr.sh: www.example.org
 ```
 
 Bundles for RapidSSL
@@ -98,3 +107,7 @@ Copyright
 
     You should have received a copy of the GNU General Public License
     along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+This repository includes "testssl.sh", written by Dirk Wetter and
+distributed under GPLv2: https://testssl.sh/
