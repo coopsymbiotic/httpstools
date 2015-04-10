@@ -81,6 +81,7 @@ This is by no means a complete guide. Use at your own risk.
 
 Further readings:
 
+* https://mozilla.github.io/server-side-tls/ssl-config-generator
 * https://wiki.mozilla.org/Security/Server_Side_TLS
 * https://community.qualys.com/blogs/securitylabs/2013/08/05/configuring-apache-nginx-and-openssl-for-forward-secrecy
 * http://security.stackexchange.com/questions/51680/optimal-web-server-ssl-cipher-suite-configuration
